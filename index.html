@@ -2,6 +2,8 @@
     <head>
         <title>Daily Plan</title>
         <link rel="stylesheet" href="/index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
     </head>
     <body>
         <div class="index-block">
@@ -35,10 +37,11 @@
                     <span class="pomodoro-estimate"> 0 pomodoros</span>
                 </li>
             </ul>
-            
-            <input id="new-todo" type="text">
-            <input id="set-pomodoro" type="text">
-            <input id="add-new-todo-button" type="submit" value="Add Todo">
+            <div id="new-todo-block">
+                <input id="new-todo-description" type="text">
+                <input id="new-pomodoro-estimate" type="text">
+                <input id="add-new-todo-button" type="submit" value="Add Todo">
+            </div>
         </div>
     </body>
 </html>
