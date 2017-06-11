@@ -28,5 +28,8 @@ ul {
     box-shadow: 3px 3px 1px #90A4AE;
 }
 li:hover {
-    background-color: #bfbfbf;
+    background-color: #e2e2e2;
+}
+li {
+    width: 40%;
 }
