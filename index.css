@@ -1,5 +1,6 @@
 h1 {
     color: red;
+    padding: 10px 20px 5px 20px;
 }
 ul {
     list-style-type: none;
@@ -17,12 +18,12 @@ ul {
     color: #FFF;
     outline: none;
     border-style: none;
-    padding: 10px;
+    padding: 15px;
     border-radius: 3px;
     box-shadow: 2px 2px 1px #90A4AE;
     display: block;
     background-color: #03A9F4;
-    margin-top: 10px;
+    margin: 20px;
 }
 #add-new-todo-button:active {
     box-shadow: 3px 3px 1px #90A4AE;
@@ -33,4 +34,11 @@ li:hover {
 li {
     width: 40%;
     padding: 10px;
+}
+#new-todo {
+    margin: 20px 20px 10px 20px;
+    display: block;
+}
+#set-pomodoro {
+    margin: 5px 20px 5px 20px;
 }
